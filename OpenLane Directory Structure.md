@@ -17,5 +17,6 @@ we completed exploring our pdks.  now we will explore opnelane. so we will give 
 ![VirtualBox_vsdworkshop_30_01_2025_11_25_17](https://github.com/user-attachments/assets/b5c7172e-9b84-4cfb-9534-bb219a3dcaf8)
 Since we will be working with sky130A, we will go to that directory and list the contents/folders of this directory.  from the listed dircetories of sky130A, we found all the technology related sub-directories.  one of the dub directories is sky130_fd_sc_hd.  When we enter sky130_fd_sc_hd directory, we found many files, like libb, lef, doc etc.  When we go to Lib directory, we get time related information.
 Since we will be working with openlane directory, we go back to openlane directory in openlane_working_dir.  Now we have to invoke the tools.
-
 ![VirtualBox_vsdworkshop_30_01_2025_17_00_10](https://github.com/user-attachments/assets/fa376698-75e5-4ea1-8abd-751c663d722e)
+To invoke the tools, we give command docker.  With this command the prompt now changes to bash-4.2$.  Now with the prompt bash-4.2$ we type ls -lrth, we get some list of files/sub-directories. Then we give command //flow.tcl -interactive and with this openlane would open, as per the screen below.
+![VirtualBox_vsdworkshop_30_01_2025_19_44_58](https://github.com/user-attachments/assets/abaa189d-3f16-4540-b39c-c9f6bc9277b8)
