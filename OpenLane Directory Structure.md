@@ -22,3 +22,5 @@ To invoke the tools, we give command docker.  With this command the prompt now c
 ![VirtualBox_vsdworkshop_30_01_2025_19_44_58](https://github.com/user-attachments/assets/abaa189d-3f16-4540-b39c-c9f6bc9277b8)
 now the following 3 steps are to be done everytime: (1) package require openlane 0.9 - with this we are ready to execute the command (2) 
 in openlane directory there is a sub directory design, which has some 30-40 designs (we can build our own designs as well).  We can get list of designs by invoking command ls -ltr in design sub directory of openlane directory.  We will be doing for picorv32a
+Next we  give the command prep -design picorv32a. With this two lef's get merged and preparation of design is completed, we get the below screen.
+![VirtualBox_vsdworkshop_30_01_2025_21_25_32](https://github.com/user-attachments/assets/a03b5f53-c44c-49e1-a33a-115b5d2869d3)
