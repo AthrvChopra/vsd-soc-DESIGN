@@ -24,15 +24,3 @@ now the following 3 steps are to be done everytime: (1) package require openlane
 in openlane directory there is a sub directory design, which has some 30-40 designs (we can build our own designs as well).  We can get list of designs by invoking command ls -ltr in design sub directory of openlane directory.  We will be doing for picorv32a
 Next we  give the command prep -design picorv32a. With this two lef's get merged and preparation of design is completed, we get the below screen.
 ![VirtualBox_vsdworkshop_30_01_2025_21_25_32](https://github.com/user-attachments/assets/a03b5f53-c44c-49e1-a33a-115b5d2869d3)
-
-Now we can cross check and see that we have created a runs dub directory in picorv32a subdirectory, by typing this path in command prompt (in new tab) Desktop/work/tools/openlane_working_dir/openlane->designs->picorv32a and then list the files/directories by ls -ltr
-![VirtualBox_vsdworkshop_31_01_2025_10_24_26](https://github.com/user-attachments/assets/31fdb82c-c345-4087-837c-b8df677672b5)
-when we change directory to runs and list we find one sub-directory 30-01_15-53 and by again moving to this sub-directory by typing cd 30-01_15-53 and then list the content by  ls -ltr command, we get to see the subb-directories created during our working (in my case between Jan 28-31, 2025), including tmp.  Again when we move into this sub-directory, and list the contents, we get to see the files created on Jan 30 and 31, 2025 (during my working on virtual machine).
-![VirtualBox_vsdworkshop_31_01_2025_10_37_07](https://github.com/user-attachments/assets/dd7eb619-9af3-4a76-a6f1-fa6ce8f8e017)
-One of the files we found is merged.lef, when we open this file by typing merged.lef, we see the different layers as we can in the screen shot below.
-![VirtualBox_vsdworkshop_31_01_2025_10_46_59](https://github.com/user-attachments/assets/0bd658de-8461-48a9-8d2d-346f9ac3e3b1)
-
-
-
-
-
