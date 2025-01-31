@@ -5,4 +5,8 @@ when we change directory to runs and list we find one sub-directory 30-01_15-53 
 One of the files we found is merged.lef, when we open this file by less command (less merged.lef), we see the different layers as we can in the screen shot below.
 ![VirtualBox_vsdworkshop_31_01_2025_10_46_59](https://github.com/user-attachments/assets/0bd658de-8461-48a9-8d2d-346f9ac3e3b1)
 We can get back to our original screen by pressing q
-in our  sub-directory 30-01_15-53 there is one file config.tcl and when we run this file by leass command (less config.tcl), we get the screen as under
+in our  sub-directory 30-01_15-53 there is one file config.tcl and when we run this file by less command (less config.tcl), we get the screen as under
+
+
+
+
