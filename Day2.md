@@ -13,4 +13,8 @@ we see that a folder 01-02_09-15 get generated.  Now we will go to that folder a
 
 now when we go to floorplan directory in the results directory. We see one file picorv32a.floorplan.def file.  when we run  this file, we get the dimensions of our die in the form (Lower left x value, lower  left y value) (upper right x value, upper right y value) co-ordinates.  using this we can claculate the area of the die and unit would be distance microns.  i microns = 1000 database units.  If we divide values of upper right x and y figures with 1000, we get the dimensions of chip in micrometer.
 ![VirtualBox_vsdworkshop_01_02_2025_15_18_44](https://github.com/user-attachments/assets/62422ffb-01a0-4f01-abe7-0b4fae668dfc)
-to see the actual layout floorplan it is first done in magic.   
+
+
+to see the actual layout floorplan it is first done in magic.  For that we need to type magic -T/home/vsduser/Desktop/work/tools/openlane_working_dir/pdks/sky130A/libs.tech/magic/sky130A.tech lef read ../../tmp/merged.lef def read picorv32a.floorplan.def &
+we get the output on the screen as under.
+![VirtualBox_vsdworkshop_01_02_2025_16_17_32](https://github.com/user-attachments/assets/a1b123f1-0863-4ba0-a1f6-f6187fe94dd8)
